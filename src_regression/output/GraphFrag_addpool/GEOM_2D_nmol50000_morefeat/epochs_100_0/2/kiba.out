@@ -1,0 +1,32 @@
+Wed 27 Apr 2022 01:47:03 PM KST
+--dataset=kiba --runseed=2 --batch_size=256 --input_model_file=./output/GraphFrag_addpool/GEOM_2D_nmol50000_morefeat/epochs_100_0/pretraining_model.pth
+Wed 27 Apr 2022 01:47:03 PM KST
+start
+end
+Wed 27 Apr 2022 01:47:03 PM KST
+Wed 27 Apr 2022 01:47:03 PM KST
+Wed 27 Apr 2022 01:47:14 PM KST
+--dataset=kiba --runseed=2 --batch_size=256 --input_model_file=./output/GraphFrag_addpool/GEOM_2D_nmol50000_morefeat/epochs_100_0/pretraining_model.pth
+Wed 27 Apr 2022 01:47:14 PM KST
+start
+Wed 27 Apr 2022 01:47:48 PM KST
+--dataset=kiba --runseed=2 --batch_size=256 --input_model_file=./output/GraphFrag_addpool/GEOM_2D_nmol50000_morefeat/epochs_100_0/pretraining_model.pth
+Wed 27 Apr 2022 01:47:49 PM KST
+start
+end
+Wed 27 Apr 2022 01:47:51 PM KST
+Wed 27 Apr 2022 01:47:51 PM KST
+Wed 27 Apr 2022 01:49:14 PM KST
+--dataset=kiba --runseed=2 --batch_size=256 --input_model_file=./output/GraphFrag_addpool/GEOM_2D_nmol50000_morefeat/epochs_100_0/pretraining_model.pth
+Wed 27 Apr 2022 01:49:14 PM KST
+start
+end
+Wed 27 Apr 2022 01:49:15 PM KST
+Wed 27 Apr 2022 01:49:15 PM KST
+Wed 27 Apr 2022 01:49:31 PM KST
+--dataset=kiba --runseed=2 --batch_size=256 --input_model_file=./output/GraphFrag_addpool/GEOM_2D_nmol50000_morefeat/epochs_100_0/pretraining_model.pth
+Wed 27 Apr 2022 01:49:31 PM KST
+start
+end
+Wed 27 Apr 2022 01:49:33 PM KST
+Wed 27 Apr 2022 01:49:33 PM KST

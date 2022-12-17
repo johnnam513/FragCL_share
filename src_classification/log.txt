@@ -1,0 +1,5 @@
+--epochs=100 --dataset=GEOM_2D_3D_nmol50000_cut_singlebond --batch_size=256 --dropout_ratio=0.2 --num_workers=8 --output_model_dir=../output/fragcl3d_4frag_mae/GEOM_2D_3D_nmol50000_cut_singlebond/epochs_100_0.2_aug_0.1_normalize_3daug_1.0_1000epoch_app_check/pretraining --aug_mode=choosetwo --choose=0 --gnn_type=gin --aug_strength=0.1 --normalize --saved_complete_file=/home/osikjs/GraphMVP/output/fragcl3d_4frag/GEOM_2D_3D_nmol50000_cut_singlebond/epochs_100_0.2_aug_0.1_normalize_3daug_1.0/pretraining_model_complete_final.pth
+Mon 12 Sep 2022 03:36:00 AM KST
+start
+end
+Mon 12 Sep 2022 03:36:01 AM KST
