@@ -32,9 +32,7 @@ conda env create -f fragcl.yaml
 
 
 ## Dataset Preprocessing
-First of all, place your SMILES file at **datasets/smiles.csv**
-
-For data preprocessing with brics decomposition, please use the following commands:
+For data preprocessing with brics decomposition, please use the following commands (please fill this up jaehyun):
 ```
 cd src_classification
 python GEOM_dataset_preparation_brics_with_dummy.py --data_folder ../datasets --n_mol 50000
