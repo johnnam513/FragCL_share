@@ -61,6 +61,21 @@ cd ..
 ```
 
 ## Fine-tuning
+Before fine-tuning, please copy the fine-tuning datasets by following commands:
+```
+cd datasets
+mkdir molecule_datasets
+scp -r alin@143.248.158.138:/home/jaehyun/GraphMVP/datasets/molecule_datasets/bace/ datasets
+scp -r alin@143.248.158.138:/home/jaehyun/GraphMVP/datasets/molecule_datasets/bbbp/ datasets
+scp -r alin@143.248.158.138:/home/jaehyun/GraphMVP/datasets/molecule_datasets/sider/ datasets
+scp -r alin@143.248.158.138:/home/jaehyun/GraphMVP/datasets/molecule_datasets/tox21/ datasets
+scp -r alin@143.248.158.138:/home/jaehyun/GraphMVP/datasets/molecule_datasets/toxcast/ datasets
+scp -r alin@143.248.158.138:/home/jaehyun/GraphMVP/datasets/molecule_datasets/clintox/ datasets
+scp -r alin@143.248.158.138:/home/jaehyun/GraphMVP/datasets/molecule_datasets/muv/ datasets
+scp -r alin@143.248.158.138:/home/jaehyun/GraphMVP/datasets/molecule_datasets/hiv/ datasets
+cd ..
+```
+
 For fine-tuning for random seeds \{0,1,2\}, please use the following commands:
 ```
 cd scripts_classification
@@ -72,4 +87,9 @@ cd ..
 
 Then, the model will be saved at **output/GraphFrag_randomaug_weighted_neg** folder.
 
-For jaehyun: 
+For jaehyun: To update github, please use the following commands after you change files in **jaehyun@143.248.158.138:~/GraphMVP** (Note: **datasets** folder is ignored by .gitignore) :
+```
+git add .
+git commit -m "what you want to comment"
+git push origin main
+```
