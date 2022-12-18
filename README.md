@@ -58,6 +58,23 @@ bash submit_pretraining_fragcl2d.sh
 cd ..
 ```
 
+## Current attempts
+1. After Brics decomposition (up to 15 fragments), consider a bag of fragments as positive sample. (not yet for negatives)
+```
+cd scripts_classification
+bash submit_pre_training_ours_bricsCL.sh
+```
+2. Hierarchical cutting: Cut one more time by cutting non-ring single bond (Total 2 big fragments, 4 small fragments).
+```
+cd scripts_classification
+bash submit_pre_training_ours_FragCL4.sh
+```
+2. Use original GraphCL loss jointly.
+```
+cd scripts_classification
+bash submit_pre_training_ours_FragCL_GraphCL.sh
+```
+
 ## Fine-tuning
 Before fine-tuning, please copy the fine-tuning datasets by following commands:
 ```
